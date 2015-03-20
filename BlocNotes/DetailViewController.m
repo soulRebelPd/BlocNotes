@@ -28,8 +28,16 @@
 - (void)configureView {
     // Update the user interface for the detail item.
     if (self.detailItem) {
+        
         self.text.text = self.detailItem.text;
         self.titleField.text = self.detailItem.title;
+        
+        //        if([self.detailItem.text isEqualToString:@""]){
+        //            self.text.text = @"Enter Note...";
+        //        }
+        //        else{
+        //            self.text.text = self.detailItem.text;
+        //        }
     }
 }
 
@@ -50,6 +58,23 @@
         _detailItem = newDetailItem;
         [self configureView];
     }
+}
+
+- (IBAction)share:(id)sender {
+    NSMutableArray *itemsToShare = [NSMutableArray array];
+    
+    if (self.detailItem.text.length > 0) {
+        [itemsToShare addObject:self.text.text];
+    }
+    
+    if (itemsToShare.count > 0) {
+        UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:itemsToShare applicationActivities:nil];
+        [self presentViewController:activityVC animated:YES completion:nil];
+    }
+}
+
+-(BOOL)automaticallyAdjustsScrollViewInsets{
+    return NO;
 }
 
 @end

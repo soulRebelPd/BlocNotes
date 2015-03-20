@@ -16,5 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *text;
 @property (weak, nonatomic) IBOutlet UITextField *titleField;
 
+- (IBAction)share:(id)sender;
+
 @end
 
