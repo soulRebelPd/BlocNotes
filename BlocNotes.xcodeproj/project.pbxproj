@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04439CBC1AB9E4C200D37EE0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439CB81AB9E4C200D37EE0 /* MasterViewController.m */; };
+		04439CBD1AB9E4C200D37EE0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439CBA1AB9E4C200D37EE0 /* DetailViewController.m */; };
+		04439CC01ABB1E8800D37EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04439CBF1ABB1E8800D37EE0 /* Main.storyboard */; };
+		04439CC31ABB669D00D37EE0 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439CC21ABB669D00D37EE0 /* Note.m */; };
+		0495C94E1AB8B74500FA37DC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0495C94C1AB8B74500FA37DC /* Model.xcdatamodeld */; };
 		04D92EB91AB5C09200602451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D92EB81AB5C09200602451 /* main.m */; };
 		04D92EBC1AB5C09200602451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D92EBB1AB5C09200602451 /* AppDelegate.m */; };
 		04D92EBF1AB5C09200602451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D92EBE1AB5C09200602451 /* ViewController.m */; };
-		04D92EC21AB5C09200602451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D92EC01AB5C09200602451 /* Main.storyboard */; };
 		04D92EC41AB5C09200602451 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D92EC31AB5C09200602451 /* Images.xcassets */; };
 		04D92EC71AB5C09200602451 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D92EC51AB5C09200602451 /* LaunchScreen.xib */; };
 		04D92ED31AB5C09200602451 /* BlocNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D92ED21AB5C09200602451 /* BlocNotesTests.m */; };
+		04D92EDD1AB5D64600602451 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D92EDC1AB5D64600602451 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04439CB71AB9E4C200D37EE0 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		04439CB81AB9E4C200D37EE0 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		04439CB91AB9E4C200D37EE0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		04439CBA1AB9E4C200D37EE0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		04439CBF1ABB1E8800D37EE0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04439CC11ABB669D00D37EE0 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		04439CC21ABB669D00D37EE0 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		0495C94D1AB8B74500FA37DC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		04D92EB31AB5C09200602451 /* BlocNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D92EB71AB5C09200602451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D92EB81AB5C09200602451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +47,12 @@
 		04D92EBB1AB5C09200602451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04D92EBD1AB5C09200602451 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04D92EBE1AB5C09200602451 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04D92EC11AB5C09200602451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D92EC31AB5C09200602451 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04D92EC61AB5C09200602451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04D92ECC1AB5C09200602451 /* BlocNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D92ED11AB5C09200602451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D92ED21AB5C09200602451 /* BlocNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocNotesTests.m; sourceTree = "<group>"; };
+		04D92EDC1AB5D64600602451 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D92EDD1AB5D64600602451 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,10 @@
 		04D92EAA1AB5C09100602451 = {
 			isa = PBXGroup;
 			children = (
+				0495C94C1AB8B74500FA37DC /* Model.xcdatamodeld */,
+				04439CC11ABB669D00D37EE0 /* Note.h */,
+				04439CC21ABB669D00D37EE0 /* Note.m */,
+				04D92EDC1AB5D64600602451 /* CoreData.framework */,
 				04D92EB51AB5C09200602451 /* BlocNotes */,
 				04D92ECF1AB5C09200602451 /* BlocNotesTests */,
 				04D92EB41AB5C09200602451 /* Products */,
@@ -81,11 +99,15 @@
 		04D92EB51AB5C09200602451 /* BlocNotes */ = {
 			isa = PBXGroup;
 			children = (
+				04439CBF1ABB1E8800D37EE0 /* Main.storyboard */,
 				04D92EBA1AB5C09200602451 /* AppDelegate.h */,
 				04D92EBB1AB5C09200602451 /* AppDelegate.m */,
+				04439CB71AB9E4C200D37EE0 /* MasterViewController.h */,
+				04439CB81AB9E4C200D37EE0 /* MasterViewController.m */,
+				04439CB91AB9E4C200D37EE0 /* DetailViewController.h */,
+				04439CBA1AB9E4C200D37EE0 /* DetailViewController.m */,
 				04D92EBD1AB5C09200602451 /* ViewController.h */,
 				04D92EBE1AB5C09200602451 /* ViewController.m */,
-				04D92EC01AB5C09200602451 /* Main.storyboard */,
 				04D92EC31AB5C09200602451 /* Images.xcassets */,
 				04D92EC51AB5C09200602451 /* LaunchScreen.xib */,
 				04D92EB61AB5C09200602451 /* Supporting Files */,
@@ -199,7 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D92EC21AB5C09200602451 /* Main.storyboard in Resources */,
+				04439CC01ABB1E8800D37EE0 /* Main.storyboard in Resources */,
 				04D92EC71AB5C09200602451 /* LaunchScreen.xib in Resources */,
 				04D92EC41AB5C09200602451 /* Images.xcassets in Resources */,
 			);
@@ -221,7 +243,11 @@
 			files = (
 				04D92EBF1AB5C09200602451 /* ViewController.m in Sources */,
 				04D92EBC1AB5C09200602451 /* AppDelegate.m in Sources */,
+				0495C94E1AB8B74500FA37DC /* Model.xcdatamodeld in Sources */,
+				04439CBC1AB9E4C200D37EE0 /* MasterViewController.m in Sources */,
 				04D92EB91AB5C09200602451 /* main.m in Sources */,
+				04439CBD1AB9E4C200D37EE0 /* DetailViewController.m in Sources */,
+				04439CC31ABB669D00D37EE0 /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +270,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04D92EC01AB5C09200602451 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04D92EC11AB5C09200602451 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04D92EC51AB5C09200602451 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +432,7 @@
 				04D92ED81AB5C09200602451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04D92ED91AB5C09200602451 /* Build configuration list for PBXNativeTarget "BlocNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,8 +441,22 @@
 				04D92EDB1AB5C09200602451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0495C94C1AB8B74500FA37DC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0495C94D1AB8B74500FA37DC /* Model.xcdatamodel */,
+			);
+			currentVersion = 0495C94D1AB8B74500FA37DC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04D92EAB1AB5C09100602451 /* Project object */;
 }
