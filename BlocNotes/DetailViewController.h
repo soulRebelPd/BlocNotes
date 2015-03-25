@@ -9,14 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "Note.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <UIDocumentPickerDelegate>
 
 @property (strong, nonatomic) Note *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UITextView *text;
 @property (weak, nonatomic) IBOutlet UITextField *titleField;
+@property (strong, nonatomic) UIDocumentPickerViewController *documentPicker;
+@property (strong, nonatomic) NSData *importData;
 
 - (IBAction)share:(id)sender;
+- (IBAction)import:(id)sender;
 
 @end
 
