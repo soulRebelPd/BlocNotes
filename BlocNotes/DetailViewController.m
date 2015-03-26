@@ -31,13 +31,6 @@
         
         self.text.text = self.detailItem.text;
         self.titleField.text = self.detailItem.title;
-        
-        //        if([self.detailItem.text isEqualToString:@""]){
-        //            self.text.text = @"Enter Note...";
-        //        }
-        //        else{
-        //            self.text.text = self.detailItem.text;
-        //        }
     }
 }
 

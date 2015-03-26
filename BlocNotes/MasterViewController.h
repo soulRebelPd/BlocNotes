@@ -11,5 +11,6 @@
 #import "AppDelegate.h"
 
 @interface MasterViewController : UITableViewController
+
 @end
 

@@ -18,7 +18,6 @@
 
 -(void)insert;
 -(void)save;
--(void)update;
 -(void)delete;
 - (id)initWithEntity:(NSEntityDescription*)entity insertIntoManagedObjectContext:(NSManagedObjectContext*)context;
 
