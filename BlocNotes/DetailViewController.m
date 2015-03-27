@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.titleField.delegate = self;
+    
+    UITapGestureRecognizer *tapGestureRecognizerOnText = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapOnText:)];
+    [self.text addGestureRecognizer:tapGestureRecognizerOnText];
+    tapGestureRecognizerOnText.delegate = self;
+    
+    UITapGestureRecognizer *tapGestureRecognizerOnTitle = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapOnTitle:)];
+    [self.titleField addGestureRecognizer:tapGestureRecognizerOnTitle];
+    tapGestureRecognizerOnTitle.delegate = self;
+    
+    self.text.editable = NO;
+    
     [self configureView];
 }
 
@@ -122,6 +135,15 @@
 
 -(BOOL)automaticallyAdjustsScrollViewInsets{
     return NO;
+}
+
+- (void) handleTapOnText: (UITapGestureRecognizer *)recognizer
+{
+    self.text.editable = YES;
+}
+
+-(void) textFieldDidBeginEditing:(UITextField *)textField{
+    self.text.editable = NO;
 }
 
 @end

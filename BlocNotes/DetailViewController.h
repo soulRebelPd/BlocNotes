@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Note.h"
 
-@interface DetailViewController : UIViewController <UIDocumentPickerDelegate>
+@interface DetailViewController : UIViewController <UIDocumentPickerDelegate, UIGestureRecognizerDelegate, UITextFieldDelegate>
 
 @property (strong, nonatomic) Note *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
@@ -20,7 +20,6 @@
 
 - (IBAction)share:(id)sender;
 - (IBAction)import:(id)sender;
-//- (IBAction)search:(id)sender;
 
 @end
 
