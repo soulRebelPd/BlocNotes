@@ -17,7 +17,6 @@
 		04B2F0EA1AC09D7400C339E4 /* SharingExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04B2F0DE1AC09D7400C339E4 /* SharingExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04D92EB91AB5C09200602451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D92EB81AB5C09200602451 /* main.m */; };
 		04D92EBC1AB5C09200602451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D92EBB1AB5C09200602451 /* AppDelegate.m */; };
-		04D92EBF1AB5C09200602451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D92EBE1AB5C09200602451 /* ViewController.m */; };
 		04D92EC41AB5C09200602451 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D92EC31AB5C09200602451 /* Images.xcassets */; };
 		04D92EC71AB5C09200602451 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D92EC51AB5C09200602451 /* LaunchScreen.xib */; };
 		04D92ED31AB5C09200602451 /* BlocNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D92ED21AB5C09200602451 /* BlocNotesTests.m */; };
@@ -76,8 +75,6 @@
 		04D92EB81AB5C09200602451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D92EBA1AB5C09200602451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04D92EBB1AB5C09200602451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04D92EBD1AB5C09200602451 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04D92EBE1AB5C09200602451 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04D92EC31AB5C09200602451 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04D92EC61AB5C09200602451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04D92ECC1AB5C09200602451 /* BlocNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,8 +164,6 @@
 				04439CB81AB9E4C200D37EE0 /* MasterViewController.m */,
 				04439CB91AB9E4C200D37EE0 /* DetailViewController.h */,
 				04439CBA1AB9E4C200D37EE0 /* DetailViewController.m */,
-				04D92EBD1AB5C09200602451 /* ViewController.h */,
-				04D92EBE1AB5C09200602451 /* ViewController.m */,
 				04D92EC31AB5C09200602451 /* Images.xcassets */,
 				04D92EC51AB5C09200602451 /* LaunchScreen.xib */,
 				04D92EB61AB5C09200602451 /* Supporting Files */,
@@ -353,7 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D92EBF1AB5C09200602451 /* ViewController.m in Sources */,
 				04D92EBC1AB5C09200602451 /* AppDelegate.m in Sources */,
 				0495C94E1AB8B74500FA37DC /* Model.xcdatamodeld in Sources */,
 				04439CBC1AB9E4C200D37EE0 /* MasterViewController.m in Sources */,

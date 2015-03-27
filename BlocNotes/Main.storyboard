@@ -143,7 +143,7 @@
                                     <action selector="import:" destination="Ah7-4n-0Wa" eventType="touchUpInside" id="YZ0-6D-q6C"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="TopLeft" keyboardDismissMode="onDrag" text="Test Text" id="MsI-g1-bbJ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="TopLeft" keyboardDismissMode="onDrag" editable="NO" text="Test Text" id="MsI-g1-bbJ">
                                 <rect key="frame" x="35" y="201" width="250" height="337"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
